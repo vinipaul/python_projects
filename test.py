@@ -1,6 +1,8 @@
-def average(num1,num2,num3):
-    result=(num1+num2+num3)/3
-    print(result)
-average(10,20,30)
-
+def show(a,b):
+    sum=a+b
+    sub=a-b
+    return sum,sub
+out1,out2=show(5,6)
+print("sum= ",out1)
+print("sub= ",out2)
 
